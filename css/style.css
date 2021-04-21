@@ -1,0 +1,275 @@
+/*
+    Theme Name: Laura
+    Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
+body {
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  outline: none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+.social-list {
+  list-style: none;
+  margin-left: -20px;
+}
+
+/***********************************
+************************************
+Responsive media queries
+************************************
+***********************************/
+
+.header {
+  background: url('../img/bg-banner03.jpg') no-repeat fixed;
+  background-size: cover;
+  min-height: 630px;
+  position: relative;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: 0px;
+  padding: 20px 0;
+  transition: all 0.3s;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fff;
+  outline: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  outline: none;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fffde0;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fffde0;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(50, 60, 70, 0.9);
+	}
+}
+
+.top-nav-collapse {
+  padding: 0;
+  background: rgba(50, 60, 70, 0.9);
+}
+
+.bg-color {
+  background-color: #434E5E;
+  opacity: 0.8;
+  position: relative;     
+  z-index:1000;
+  min-height: 650px;
+}
+
+.banner-text {
+  border-left: 5px solid #BE2525;
+  padding: 15px 40px;
+  color: #fff;
+  margin-top: 170px;
+}
+
+.banner-text h2, .banner-text p {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Questrial', sans-serif;
+}
+
+.overlay-detail {
+  margin: 0 auto;
+}
+
+.overlay-detail a i {
+  text-align: center;
+  position: absolute;
+  bottom: -140px;
+  font-size: 24px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.deco {
+  font-family: 'Satisfy', cursive;
+}
+
+#about {
+  background-size: cover;
+  margin-bottom: -3px;
+}
+
+.section-padding {
+  padding-top: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.title-text {
+  padding: 0px 25px 0px 0px;
+  border-right: 5px solid #BE2525;
+  font-size: 24px;
+}
+
+.about-text p {
+  color: #444;
+}
+
+.abt-list li {
+  padding: 5px 0px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.grid-padding {
+  padding: 0 8px;
+}
+
+.grid-padding img {
+  margin-bottom: 15px;
+}
+
+.padding-right-zero {
+  padding-right: 0px !important;
+}
+
+#myGrid {
+  margin-top: 50px;
+}
+
+.test-sec blockquote {
+  background: #eee;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 15px;
+  position: relative;
+}
+
+.test-sec blockquote::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  margin-left: 10px;
+  border-top: 14px solid #eee;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+}
+
+footer {
+  background-color: #434E5E;
+  opacity: 0.8;
+  margin-top: 20px;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fffde0;
+}
+
+.footer {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px;
+
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/***********************************
+************************************
+Responsive media queries
+************************************
+***********************************/
+
+@media (min-width: 551px) and (max-width: 980px) {
+  .title-text {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 550px) {
+  .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-brand {
+    margin-top: 0px;
+  }
+  .carousel-info {
+    margin-bottom: 30px;
+  }
+  .type--fine-print {
+    text-align: center;
+  }
+  .text-center-xs {
+    text-align: center !important;
+  }
+  .social-list {
+    margin-bottom: 15px;
+  }
+  .banner-text h2, .banner-text p {
+    font-size: 30px;
+  }
+  .title-text {
+    margin-bottom: 15px;
+  }
+}
