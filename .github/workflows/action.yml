@@ -34,7 +34,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          target: levell-deploy
+          target: levell-ch-deploy
           tags: |
             ghcr.io/jimmylevell/levell.ch/levellch:latest
       - 
