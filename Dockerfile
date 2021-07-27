@@ -16,7 +16,7 @@ RUN apt-get install git -y
 ###############################################################################################
 # Levell - DEPLOY
 ###############################################################################################
-FROM levell-ch-base as levell-ch-deply
+FROM levell-ch-base as levell-ch-deploy
 
 COPY . .
 
