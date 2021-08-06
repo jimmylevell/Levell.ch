@@ -49,5 +49,4 @@ jobs:
           pull_images_first: true
           deploy_path: /home/docker/levell/levellch
           stack_file_name: docker-compose.prod.yml
-          keep_files: 2
           args: --with-registry-auth --prune levellch
