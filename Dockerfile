@@ -1,7 +1,7 @@
 ###############################################################################################
 # Levell.ch - BASE
 ###############################################################################################
-FROM nginx:1.31.2 as levell-ch-base
+FROM nginxinc/nginx-unprivileged:1.31.2 as levell-ch-base
 
 WORKDIR /usr/share/nginx/html
 
@@ -20,4 +20,4 @@ FROM levell-ch-base as levell-ch-deploy
 COPY . .
 
 # publish app
-EXPOSE 80
+EXPOSE 8080
