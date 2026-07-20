@@ -1,7 +1,7 @@
 ###############################################################################################
 # Levell.ch - BASE
 ###############################################################################################
-FROM nginxinc/nginx-unprivileged:1.31.2 as levell-ch-base
+FROM nginxinc/nginx-unprivileged:1.31.3 as levell-ch-base
 
 WORKDIR /usr/share/nginx/html
 
